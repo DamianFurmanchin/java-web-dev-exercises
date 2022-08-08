@@ -17,6 +17,8 @@ public static void main(String[] args) {
             "thought Alice 'without pictures or conversation?";
     System.out.println("Enter a search term for a word in the text.");
     String searchTerm = input.next();
+    input.close();
+
     System.out.println(aliceText.toUpperCase().contains(searchTerm.toUpperCase()));
     Integer index = aliceText.indexOf(searchTerm);
     Integer length = searchTerm.length();

@@ -8,6 +8,7 @@ public class MPG {
 
         System.out.println("How many gallons of gas did you use?");
         double gallonsUsed = input.nextDouble();
+        input.close();
 
         double mpg = milesDriven/gallonsUsed;
         System.out.println("You are currently getting " + mpg + " mpg.");
