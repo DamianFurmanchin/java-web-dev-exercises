@@ -10,6 +10,8 @@ public class Message {
             return "Bonjour, le monde!";
         } else if (lang.equals("au")) {
             return "Mornin', mate!";
+        } else if (lang.equals("ch")) {
+            return "Ni hao, bitches!";
         } else {
             return "Hello, World!";
         }
