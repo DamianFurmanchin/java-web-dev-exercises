@@ -30,7 +30,7 @@ public class Chapter3ExercisesPart3 {
         System.out.println("\nClass roster:");
 
         for (Map.Entry<String, Integer> student : classInfo.entrySet()) {
-            System.out.println(student.getValue() + "'s ID: " + student.getKey());
+            System.out.println(student.getKey() + "'s ID: " + student.getValue());
         }
         System.out.println("Number of students in roster: " + classInfo.size());
     }
