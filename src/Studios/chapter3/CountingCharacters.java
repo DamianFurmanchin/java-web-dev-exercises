@@ -15,8 +15,6 @@ public class CountingCharacters {
                 scores.put(letter, (scores.get(letter) + 1));
             }
         }
-
-
         for (Map.Entry<Character, Integer> score : scores.entrySet()) {
             System.out.println(String.format("%s: %s", score.getKey(), score.getValue()));
         }
